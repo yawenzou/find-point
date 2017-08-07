@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+.main {
+	position: relative;
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding-top: 30px;
+}
+.input-row {
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+.input-label {
+	float: left;
+	padding: 0 10px 0 130px;
+}
+.input-text {
+	float: left;
+	width: 300px;
+	min-height: 30px;
+	border: 1px solid #c9c9c9;
+	text-indent: 10px;
+}
+.sure-btn {
+	float: left;
+	width: 100px;
+	height: 28px;
+	text-align: center;
+	border: 1px solid #6de2ab;
+	cursor: pointer;
+	background-color: #6de2ab;
+	color: #fff;
+	margin-left: 20px;
+}
+.sure-btn:hover {
+	background-color: #fff;
+	color: #6de2ab;
+}
+.err-msg {
+	position: relative;
+	margin-left: 208px;
+	color: red;
+}
